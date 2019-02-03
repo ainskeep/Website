@@ -1,0 +1,3 @@
+Need to move the "active" class around do the different links on the nav bar when a new page is visited
+    JS on page load?
+

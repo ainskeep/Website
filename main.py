@@ -5,12 +5,18 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def homepage():
     jinjaList = ['Check', 'Me', 'Out', 'Right', 'Now']
 
     return render_template('index.html', jinjaList=jinjaList)
 
+@app.route('/reloading')
+def reloading():
+    jinjaList = ['No']
+
+    return render_template('reloading.html', jinjaList=jinjaList)
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
