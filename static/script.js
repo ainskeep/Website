@@ -3,7 +3,7 @@
 
 window.addEventListener('load', function () {
 
-  console.log("Hey folks");
+  console.log("Hey folks, Yeah boi!");
 
 });
 // [END gae_python37_log]
