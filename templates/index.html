@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <h1>Hello</h1>
+
+  <h2>example of using jinja</h2>
+  {% for item in jinjaList %}
+    <p>{{ item }}</p>
+  {% endfor %}
+
+</body>
+</html>
